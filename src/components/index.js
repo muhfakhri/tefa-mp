@@ -6,6 +6,7 @@ import TopButton from "./topbutton";
 import Product from "./product";
 import About from "./about";
 import ChatWidget from "./chat";
+import Kerjasama from "./kerjasama";
 
 
 export {
@@ -16,7 +17,9 @@ export {
     TopButton,
     Product,
     About,
-    ChatWidget
+    ChatWidget,
+    Kerjasama
+
 
     
 

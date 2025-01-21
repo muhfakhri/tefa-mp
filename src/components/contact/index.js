@@ -3,11 +3,11 @@ import React from "react";
 const Contact = () => {
     return (
         <div>
-          <section class="bg-gray-100">
+          <section class="bg-purple-700 text-white">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-extrabold text-gray-900">Kunjungi lokasi kami</h2>
-            <p class="mt-4 text-lg text-gray-500">informasi lebih detail mengenai kami, Menejemen Perkantoran SMK N 1 BANTUL</p>
+            <h2 class="text-3xl font-extrabold text-white">Kunjungi lokasi kami</h2>
+            <p class="mt-4 text-lg text-gray-200">informasi lebih detail mengenai kami, Menejemen Perkantoran SMK N 1 BANTUL</p>
         </div>
         <div class="mt-16 lg:mt-20">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -19,18 +19,18 @@ const Contact = () => {
                 <div>
                     <div class="max-w-full mx-auto rounded-lg overflow-hidden">
                         <div class="px-6 py-4">
-                            <h3 class="text-lg font-medium text-gray-900">Alamat</h3>
-                            <p class="mt-1 text-gray-600">Jl. Parangtritis No.KM.11, Dukuh, Sabdodadi, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55715</p>
+                            <h3 class="text-lg font-medium text-gray-50">Alamat</h3>
+                            <p class="mt-1 text-white">Jl. Parangtritis No.KM.11, Dukuh, Sabdodadi, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55715</p>
                         </div>
-                        <div class="border-t border-gray-200 px-6 py-4">
-                            <h3 class="text-lg font-medium text-gray-900">Jam Oprasional</h3>
-                            <p class="mt-1 text-gray-600">07:00 WIB - 17:00 WIB</p>
+                        <div class="border-t border-purple-400 px-6 py-4">
+                            <h3 class="text-lg font-medium text-gray-50">Jam Oprasional</h3>
+                            <p class="mt-1 text-white">07:00 WIB - 17:00 WIB</p>
                  
                         </div>
-                        <div class="border-t border-gray-200 px-6 py-4">
-                            <h3 class="text-lg font-medium text-gray-900">Contact</h3>
-                            <p class="mt-1 text-gray-600">Email: info@example.com</p>
-                            <p class="mt-1 text-gray-600">Phone: +1 23494 34993</p>
+                        <div class="border-t border-purple-400 px-6 py-4">
+                            <h3 class="text-lg font-medium text-gray-50">Contact</h3>
+                            <p class="mt-1 text-white">Email: -</p>
+                            <p class="mt-1 text-white">Phone: +6281733505</p>
                         </div>
                     </div>
                 </div>
