@@ -3,19 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #ff0000;
+  --color-secondary: #00ff00;
+  --color-tertiary: #0000ff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+
+#nprogress .bar {
+  background: rgb(255, 4, 222) !important;
+  height: 4px !important;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+#nprogress .peg {
+  box-shadow: 0 0 10px rgb(221, 34, 165), 0 0 5px rgb(221, 34, 209) !important;
+}
+
+#nprogress .spinner-icon {
+  display: none !important;
 }

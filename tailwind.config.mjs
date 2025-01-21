@@ -8,10 +8,18 @@ export default {
   theme: {
     extend: {
       colors: {
+          
+       
+        'hub-kami': '#86469C',
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      backgroundImage: {
+        'hero-pattern-1': "url('/images/background.jpeg')",
+        'hero-pattern-2': "url('/images/Front_view_of_SMKN_1_Bantul.jpg')",
       },
     },
   },
   plugins: [],
 };
+
